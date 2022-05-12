@@ -8,14 +8,14 @@
 	  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     border-radius: 5px;
     animation-name: example;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 	
 }
 
 @keyframes example {
   from {background-color: rgb(59, 90, 175);}
-  to {background-color: #45a049;}
+  to {background-color: #0e0c74;}
 }
 
 #ispodSredine {
