@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="popologo.png" type="image/gif">
+		<title>PoPo HR BiH</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<p style="text-align: center">© zzivic 2022. </p>
+		<div id="sredina">
+			<h2 style="text-align: center;">Pogranična područja u RH i BiH</h2>
+			<form onSubmit="polje('poljeUpisa');">
+			<label>
+				
+				<input type="text" id="poljeUpisa" autocomplete="off" placeholder="Mjesto prebivališta u Hrvatskoj">
+				<input type="submit" value="PRETRAŽI">
+			</label>
+			</form>
+			
+			<form onSubmit="polje2('poljeUpisa2');">
+			<label>
+				 
+				<input type="text" id="poljeUpisa2" autocomplete="off" placeholder="Mjesto izdavanja računa u BiH">
+				<input type="submit" value="PRETRAŽI">
+			</label>
+			</form>
+		</div>
+		<br>
+		<div id="ispodSredine">
+			
+			<ul>
+				<li>provjerite da li ste dobro upisali naziv mjesta</li>
+				<li>provjerite Vaš unos slova Č i Ć</li>
+				<li>pri unosu ne morate paziti na velika i mala slova</li>
+				<li>svako polje se pretražuje zasebno</li>
+			  </ul>
+
+		</div>
+		<img class="karta" src="rh karta.png" alt="slika karte RH">
+		
+		
+    
+
+	<script src="index.js"></script>
+	</body>
+</html>
