@@ -10,12 +10,13 @@
     animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
 	
 }
 
 @keyframes example {
   from {background-color: rgb(59, 90, 175);}
-  to {background-color: #0e0c74;}
+  to {background-color: #4845c4;}
 }
 
 #ispodSredine {
