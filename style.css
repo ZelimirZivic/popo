@@ -8,15 +8,18 @@
 	  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     border-radius: 5px;
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
-    animation-fill-mode: backwards;
+    
 	
 }
 
 @keyframes example {
-  from {background-color: rgb(59, 90, 175);}
-  to {background-color: #4845c4;}
+  0%   {background-color:rgb(59, 90, 175);}
+  25%  {background-color:rgb(121, 194, 112);}
+  50%  {background-color:rgb(248, 205, 12);}
+  75%  {background-color:rgb(216, 52, 52);}
+  100% {background-color:rgb(55, 184, 207);}
 }
 
 #ispodSredine {
