@@ -1,5 +1,5 @@
 #sredina {
-    max-width: 500px;
+    max-width: 600px;
     background-color: rgb(59, 90, 175);
     margin: 50px auto 0 auto;
     padding: 1px;
@@ -23,7 +23,7 @@
 }
 
 #ispodSredine {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     border: 1px solid black;
     padding: 1em;
